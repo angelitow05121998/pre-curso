@@ -1,0 +1,96 @@
+
+
+FOR:  
+
+ For (ciclo) es una estructura que nos permite repetir nuestro codigo x numero de veces , cuantas veces nosotros lo nesesitesmos.
+*EJEMPLO:
+
+   for  ([expresiónInicial]; [expresiónCondicional]; [expresiónDeActualización])
+    👇           👇                    👇                          👇
+ *ciclo         *👇                   *👇                *especifica-que-la-variable-incrementara
+                 👇                    👇
+                *👇            *un-valor-con-condicion
+                 👇
+                 👇 
+  *alguna-variable-con-una-expresion
+
+  EJEMPLO:
+
+   for (i = 0; i <=10; i++)        ----⇂
+                                       ⇂👉 aqui explica la estructura del codigo, podemos ver que, la primera opcion(i= 0),
+    document.write("¡hola!" + "<br>")     ----↾    es la expresion inicial,la exprecion(i <=10) es el valor con la condicion y (i++) significa expresion
+                                           expresion de actualizacion , que quiere decir, que la variable va incrementando.
+                                           *el_ciclo_for_te_permite_reescribir_la_cantidad_de_veces_el_el_valor_que_quieres_mostrar.
+respuesta:
+
+¡hola!
+¡hola!
+¡hola!
+¡hola!
+¡hola!
+¡hola!
+¡hola!
+¡hola!
+¡hola!
+¡hola!
+
+*_____________________________________________________________________________________________________________________________________________________________________________
+
+OPERADORES: '&&'  --  '||'  --  '!' 
+
+*&&: estos son operadores de condicion obligatoria, es decir que dado una valor tiene que cumplir las condicion obligatoria.
+
+*EJEMPLO:
+ DECLARAMOS UNA VARIABLE  con 2 condiciones, las dos son verdaderas: en donde el operador && hace que 
+                                                                      las dos concidciones  sean correctas obligatoriamente.
+ function edad(edad){
+ 
+ if (edad == 18 && edad = 10 + 8){
+  return ("verdadero")
+ } else {
+  return ("incorrecto")
+ } 
+}
+
+ edad(18);
+
+respuesa: verdadero 
+
+*__________________________________________________________________________________________________________________________________________________________________________________
+
+*||: estos son operadores de condicion de que compara dos expresiones y , tiene que alguna de las dos expresiones estar correctas,
+     no importa si una esta mal, tiene que tener alguna expresion correcta, asi que toma ese valor.
+
+*EJEMPLO:
+DECLARAMOS UNA VARIABLE  con 2 condiciones, una falsa y una verdadera: en donde el operador || hace que cualquiera de las dos condiciones
+                                                                       no tiene que ser las dos verdaderas, desde que calguna de esas dos se cumpla,
+function edad(edad){                                                   esta bien la estructura.
+ 
+ if (edad == 18  || edad == 30){
+  return ("verdadero")
+ } else {
+  return ("incorrecto")
+ } 
+}
+
+edad(30); 
+respuesta: verdadero
+*_____________________________________________________________________________________________________________________________________________________________________________
+
+*!: Establece una negación lógica en una expresión, es decir, que ante una expresión, 
+    cuyo estado lógico es True (verdadero), el operador hará que devuelva False (falso).
+
+*EJEMPLO:
+
+function edad(edad){                                                   
+                                      ------⇂
+ if (!edad == 18  || edad == 30){           ⇂
+  return ("verdadero")                     ⇂👉  *aqui vemos que  la condicion (!edad == 18) es verdadera, pero como se le agrego el
+ } else {                                   ⇂         operador ( ! ) asi sea verdadero la condicion saldra - incorrecta.
+  return ("incorrecto")               ------↾
+ } 
+}
+
+edad(18);
+
+respuesta: incorrecto

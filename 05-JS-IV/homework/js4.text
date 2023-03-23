@@ -1,0 +1,116 @@
+
+
+*OBJETOS:
+
+
+Un objeto es una colección de propiedades, y una propiedad es una asociación entre un nombre (o clave ) y un valor.
+podemos llamar el objecto bariendo :{} 
+
+ejemplo:   1. Como todas las variablesde JavaScript, tanto el nombre del objeto (que puede ser una variable normal) como el nombre de la propiedad son sensibles a mayúsculas y minúsculas. 
+ Puedes definir propiedades asignándoles un valor. 
+ Por ejemplo, vamos a crear un objeto llamado myCary le vamos a asignar propiedades denominadas make, model, y yearde la siguiente manera;
+
+var myCar = new Object();
+myCar.make = 'Ford';
+myCar.model = 'Mustang';
+myCar.year = 1969;
+
+ 2. El ejemplo anterior también se podría escribir usando un iniciador de objeto , 
+que es una lista delimitada por comas de cero o más pares de nombres de propiedad y valores asociados de un objeto, encerrados entre llaves ( {});
+
+var myCar = {
+    make: 'Ford',
+    model: 'Mustang',
+    year: 1969
+};
+
+*__________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+*PROPIEDADES: las propiedades son todas las caracteristicas que hay dentro de un objecto.
+EJEPLO:
+   
+   Var propiedase = {
+    nombre: "luis",
+    edad: "24",
+    apellido: "ruiz",
+   }
+
+   las propiedades que estan dentro del objecto son ; nombre , edad , apellido , que son las caracteristicas dentro de un objecto .
+   eso lo define como una serie de propiedades.
+
+*___________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+*METODOS:
+
+Un método es una función la cual es propiedad de un Objeto . Existen dos tipos de métodos; 
+Métodos de Instancia los cuales son tareas integradas realizadas por la instancia de un objeto, 
+y los Métodos Estáticos que son tareas que pueden ser llamadas directamente en el constructor de un objeto.
+  
+  EJEMPLO:
+
+  var luis = {
+  nombre: "luis",            aqui podemos ver que se creo una varible con un objeto, hay varias propiedades que estan dentro del objecto como,
+  edad: 24,                   nombre, edad, hobbie, vivo. pero dentro del objecto tambien hay una funcion llamada; pais que se describe como un metodo dentro de un objeto.
+  hobbie: "orar",
+  vivo: true,
+  function(pais){
+   pais: colombia
+  }
+  }
+
+*________________________________________________________________________________________________________________________________________________________________________________________________________
+
+*BUCLE FOR...IN:
+
+los bucles for..in te permite guardar un objecto dentro de una variable, o tambien puedes guardar las propiedades o resultados de las propiedades del objecto dentro de la variable.
+te permite calcular el valor total de as propiedades para guardarlas dentro de la variable o el total de las propiedades.
+
+EJEPLO: 
+
+ var datos = {
+  nombre: "luis",
+  edad: 18,
+  hobbie: "orar",
+  vivo: true,
+}
+
+for(var datos2 in datos){
+  console.log(datos2);
+}
+
+*________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+NOTACION DE PUNTOS VS NOTACION DE CORCHETES:
+
+para llamar propiedades o crear funcion utilizamos notacion de corchetes que seria en este caso;
+
+var informe = {
+  nombre: "luis",
+  edad: 18,
+  hobbie: "orar",
+  vivo: true,
+}
+
+for(var informe2 in informe){
+  console.log(informe2[infomre]);
+}
+
+para llamar propiedades o crear una funcion utilizamos notacion de puntos que seria en este caso asi;
+
+var informe = {
+  nombre: "luis",
+  edad: 18,
+  hobbie: "orar",
+  vivo: true,
+}
+
+for(var informe2 in informe){
+  console.log(informe2);
+}
+
+
+
+  
+

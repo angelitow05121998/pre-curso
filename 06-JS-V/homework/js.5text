@@ -1,0 +1,56 @@
+
+*CLASES(constructores):
+
+las clases las podemos definir como tipos de objetos de un mismo conjunto:
+ ejemplo; 
+                                                  
+                                                  animales                     AQUI PODEMOS EXPLICAR QUE ANIMALES ES UN OBJETO PERO QUE DEFINEN,
+                                                    ⇙ ⇘                         DIFERENTES TIPOS ANIMALES , HAY VARIAS CLASES DE ANIMALES
+                                                  ⇙     ⇘                     ES DECIR , HAY ANIMALES HERVIVORO Y CARNIVOROS, PERO AMBOS SON ANIMALES , SOLO QUE DE TIPOS DIFERENTES.
+                                                ⇙         ⇘
+                                        carnivoros        hervivoros
+
+*aqui podemos definir una clase por que decimos que es un mismo objeto pero la definine diferentes tipos de clases de ese objeto.
+
+ejemplo:               
+                 class animales {
+                  constructor(nombre,tipo){
+                this.nombre = nombre,
+                this.tipo = tipo
+                  }
+                 }
+           
+               
+               var miMascota = animales("perro", "hervivoro");
+               var mianimalfavorito = animales("leon","carnivoro");
+
+
+aqui pudimos crear una clase que especificaba un objeto que en este caso es animales, pero definiendo varias clases de animales, una sola fuente diferentes conjuntos.
+
+*__________________________________________________________________________________________________________________________________________________________________________________
+ 
+ *PROTOTYPE:
+
+  los prototipos son estructuras herreditarias de una clase EJEMPLO:
+
+  construimos una clase de tipo padre, con propiedades de caracteristicas que tienes ese padre ejemplo;
+  caracter,peso,altura,tipodesangre, esa clase de tipo padre puede herredar a objetos de tipo clase
+
+  EJEMPLO:
+         
+         class padre {
+          constructor(caracter,peso,altura,tipodesangre){
+         this.caracter = caracter,
+         this.peso = peso,
+         this.altura = altura,
+         this.tipodesangre = tipodesangre
+          }
+         }
+
+         var hijo1 = padre("bravo", 78k , 1.87 , "b+");
+         var hijo2 = padre("tierno", 65k , 1.90 , "b+")
+
+        padre.prototype.edad = funcion(){"20 años"}
+
+        AQUI PUDIMOS VER QUE LA CLASE PADRE CON UNA ESTRUCTURA QUE HERREDO A SUS HIJOS ESA ESTRUCTURA , Y NO SOLO LOS HERREDO
+        SI NO QUE USANDO PROTOTYPE PUDIMOS AÑARDIRLE UN NUEVO METODO.

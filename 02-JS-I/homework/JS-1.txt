@@ -1,0 +1,213 @@
+
+QUE SON LAS VARIABLES :
+
+una variable se puede deducir brevemente que es un concepto fundamental en cualquier lenguaje de programación. 
+En JavaScript,  y puedes declarar variables usando la palabra clave (var).
+-Es decir que una variable puede ser una herramienta , llamemosla una cajita donde puedes almacenar o guardar un valor.
+
+* tambien podemos decir que existen 3 formas de declarar una variable :
+1. (var) esta pespecifica la forma de lenguaje de una variable en javascrip aen una version ES5.
+2. (let) esta se utiliza para declararse como variable pero se utiliza en una version mas actulizada de javascrip como ES6.
+3.(const) tambien es un lenguaje nuevo de javascrip ES6 para definir la variable pero en este caso podria ser una variable que no se podra cambiar.
+
+* Cómo usar la palabra clave var en JavaScript:
+Las palabras clave en JavaScript son palabras reservadas. 
+Cuando usas la palabra clave var, le estás diciendo a JavaScript que vas a declarar una variable.
+
+*EJEMPLO:         Var   miVariable
+                   ⇩         ⇩
+                   ⇩         ⇩  
+                   ⇩         ⇩
+                   ⇩      EL TIPO DE VARIABLE
+                   ⇩
+        DECLARANDO LA VARIABLE        
+
+
+
+
+______________________________________________________________________________________________________________________________________________________________________________________________
+
+QUE ES UN STRINGS:
+
+string es un grupo de cadenas de caracteres, (string) que se utiliza para representar y manipular una secuencia de caracteres
+es decir que cuando creas una variable dentro de esa variable hay una cadena de caracteres que esta representada entre "" . y su valor puedo ser cualquier texto
+
+*EJEMPLO:
+
+         * tenemos la variable y el tipo de variable, solo agregariamos la cadena de caracteres dentro de esa variable:
+
+
+         *EJEMPLO:
+          
+
+       ➵   Var     miVariable   =   "comida favorita" ;  ↞
+           ⇩          ⇩                    ⇩
+           ⇩          ⇩                    ⇩
+           ⇩          ⇩           LA CADENA DE CARACTERES QUE VA ENTRE COMILLAS
+           ⇩          ⇩
+           ⇩     EL TIPO DE VARIABLE
+           ⇩
+           ⇩
+  DECLARANDO LA VARIABLE
+
+
+
+
+
+____________________________________________________________________________________________________________________________________________________________________________________________________
+
+QUE SON LAS FUNCIONES: (argumentos, `return`)
+
+las  funciones son una serie de declaraciones de resultados de codigos , guardados dentro de una cajita , que solo se exponen al llamarlos o nombrarlo dentro de una variable
+para atraer su valor o retonarlo.
+
+* su concepto de declaracion es (fuction)
+
+*COMO SE DECLARA UNA FUNCION:
+
+FUCTION   --seguido del nombre de la funcion que podria ser -- UNA FUNCION()↠ *los parentesis se utilizan para definir parametros detros de ellos.
+
+*EJEMPLO:
+
+ fuction  unafuncion(){} ➵ *SON LLAVES QUE TE PERMITEN QUE LA FUNCION ESTE DENTRO DE ESA LLAVE*
+   ⇩         ⇩     ⇩
+   ⇩         ⇩     ⇩
+   ⇩         ⇩   LOS ()DONDE IRAN INCLUIDOS LOS PARAMETROS
+   ⇩         ⇩
+   ⇩     EL NOMBRE DE LA FUNCION
+   ⇩
+   ⇩
+DECLARANDO LA FUNCION
+
+llamamos la funcion de la siguiente manera:   unaFuncion();
+  
+
+*HAY TRES FORMAS EN QUE PODEMOS CONSTRUIR UNA FUNCION:
+
+*1.     fuction   unafuncion() {};
+*-----------------------------------------------------------------
+*2.     var  otraFuncion = fuction() {};
+*-----------------------------------------------------------------
+*3.     var otraFuncionmas = () => {};
+*-----------------------------------------------------------------
+
+NOTA: puedes declarar una funcion dentro de una variable para atraer el resultado de codigos de la funcion , traer algun dato o  a si mismo retonarlo
+
+*argumentos:
+
+LOS ARGUMENTOS SON LOS VALORES AGREGADOS QUE QUEREMOS PASAR DENTRO DE LOS PARENTESIS DE UNA FUNCION
+
+*EJEMPLO:  fuction  una funcion (a,b) {};
+                                  ⇩
+                                  ⇩
+    esos son los parametros que se pasan dentro de una funcion al agregar un valor.
+
+
+
+
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+RETURN:
+
+la declaracion de return es la unica forma en la que le permite a un dato escapar de una funcion, y devolver ese valor.
+La sentencia return finaliza la ejecución de la función y especifica un valor para ser devuelto a quien llama a la función.
+*EJEMPLO:   
+    
+  function sofia(){     ------⇂
+  return "danna"              ⇂---↠  AQUI PODEMOS VER QUE HICIMOS UNA FUNCION, DONDE :sofia() es la funcion que llamamos de entrada,
+  console.log("te amo") ------⇂                     y "danna" es la de salida, como se retorna no sale ese dato , si no solo el que esta de entrada.
+}
+
+       ⇈
+       ⇈
+ *llamando la funcion: ➤ console.log(sofia());
+ 
+
+*RESULTADO:  ↠  te amo - ESTE ES EL DATO DE SALIDA DE LA FUNCION.
+
+
+
+
+
+
+
+_______________________________________________________________________________________________________________________________________________________________________________________________
+
+DECLARACIONES  IF:
+
+ IF es una estructura de control utilizada para tomar decisiones. 
+ Es un condicional que sirve para realizar unas u otras operaciones en función de una expresión.
+Funciona de la siguiente manera, primero se evalúa una expresión, si da resultado positivo se realizan las acciones relacionadas con el caso positivo.
+
+*EJEMPLO:
+
+ if (expresión) {                          ----⇂
+   //acciones a realizar en caso positivo      ⇂--➤  La sintaxis de la estructura IF es esta. en caso positivo.
+}                                          ----↾
+
+
+*EJEMPLO: haremos un ejemplo mas grafico de la declaracion if en estado positivo:
+
+hacemos una funcion: despues de llamar la funcion declaramos if si es verdadero el resultado.
+
+function mayor(a,b){       --------↓
+  if (a > b) {                     ↓ 
+    return "es verdadero"          ↓➠➠ esta es la funcion que creamos retornando una valor que (a es > que b)
+  }                                ↑             y declarando if si el valor es verdadero.
+  }                        --------↑
+
+
+            ----⇂
+mayor (5,3)     ⇂➠➠  aqui estamos llamando la funcion, con el valor asignado especificamente que es 5,3.
+            ----↾
+
+
+                        ----⇂
+resultado: VERDADERO        ⇂➠➠ aqui aparece VERDADERO, por que el valor que retornamos  es 5 que es > que 3 y esto lo hace verdadero. 
+                        ----↾
+
+*NOTA: si en ves de 5 ponemos 1 no daria el resultado como (VERDADERO) por que sabemos que 1 no es > que 3,
+       por lo cual no s ecumpliria la funcion y arrojaria un delfind (error) o no apareceria ningun resultado.
+  
+
+
+
+
+
+
+
+______________________________________________________________________________________________________________________________________________________________________________________________
+
+VALORES BOOLEANOS: (`true`, `false`):
+
+los valores boleanos  son valores que se dan de una forma positiva y negativa, es decir true( especifica un valor verdadero ) y false(representa un valor falso).
+
+*EJEMPLO: 
+
+
+identificamos una funcion con un valor, retornamos un valor especifico y decalramos un IF, declarando los valores booleanos,
+en caso de que el resultado sea verdadero o falso;
+
+EJEMPLO: ESPECIFICANDO:
+
+function  mayor(a,b){   -------⇂
+if (a > b ){                   ⇂
+ return true                   ⇂ 
+} else{                        ⇂➠➠ aqui podemos ver que creamos una funcion, retornando una valor que dice que a es > que b y
+    return false               ⇂     declaramos un IF si esa funcion se cumple. Retorna un true(que es un valor verdadero) si la funcion se cumple, en caso,
+}                              ⇂     de que la funcion no se cumpla retornara un false(que es una valor falso).
+}                              ⇂     seria (false) en caso de que a que en este caso es 5 no fuera mayor que b que en este caso es 4,
+mayor(5,4)              -------↾     hay retornaria false por que no cumple la funcion.
+
+*resultado: true
+
+
+
+
+      
+
+
+
+
+

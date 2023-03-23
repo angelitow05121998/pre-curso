@@ -1,0 +1,17 @@
+
+
+FUNCIONES CALLback:
+¿Qué es un callback?
+Las funciones siempre se referencian a determinados parámetros. 
+Si asignas una función como parámetro a otra función, hablaremos de un callback. 
+Las funciones callback suelen utilizarse mucho en bibliotecas y frameworks, como las aplicaciones JavaScript jQuery, Angular o node.js. Estas aplicaciones son adecuadas para crear funciones extensibles y se ejecutan únicamente después de que tenga lugar otro evento o circunstancia.
+
+¿Cómo funciona un callback?
+La función callback siempre tiene un efecto determinado que está relacionado con ciertas circunstancias. 
+En otras palabras, solo se invoca si ha tenido lugar otra acción claramente definida.
+ Un buen ejemplo de función callback son los controladores de eventos, que se utilizan, por ejemplo, en elementos HTML como los botones.
+  El evento podría ser un clic del ratón que hace que se ejecute el callback, y la función en sí misma podría provocar el redireccionamiento a otra página o transmitir un valor que se haya introducido en un formulario.
+
+La principal diferencia entre una función normal y un callback sería la siguiente: 
+si bien una función normal se ejecuta directamente, la función callback solo se define y se llama y ejecuta únicamente cuando ocurre un evento concreto.
+ Como hemos mencionado, las funciones callback se utilizan en numerosos lenguajes de programación y, aunque la sintaxis y la estructura de los métodos difieren, sus principios se mantienen en todos los lenguajes.

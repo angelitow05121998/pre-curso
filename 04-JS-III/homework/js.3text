@@ -1,0 +1,69 @@
+
+
+*ARRAYS:
+
+Un  es una colección o agrupación de elementos en una misma variable, cada uno de ellos ubicado por la posición que ocupa en el array. 
+En algunas ocasiones también se les suelen llamar arreglos o vectores. 
+
+EJEMPLO:
+
+Por ejemplo, podríamos tener un array que en su primera posición tenemos el  'a', en la segunda el  'b' y en la tercera el  'c'. 
+En Javascript, esto se crearía de esta forma;
+
+* Creamos una variable , dentro de la funcion o variable, agregamos una cadena de string dentro de un array;
+  
+    
+     var nOmbres = ['luis', 'sofia', ' mateo', 'jabes'];   ➥   Aqui podemos ver varios strin dentro de una cadena, 
+                                                                  de arrays, strin 1, string2, string3, string4.
+
+
+* ESTO HACE: QUE Al igual que los , saber el número elementos que tiene un array es muy sencillo. Sólo hay que acceder a la propiedad .
+ength, que nos devolverá el número de elementos existentes en un array.
+
+
+                                          DE QUE FORMAS PODEMOS USAR UN ARRAY:
+
+Hay dos sintaxis para crear un array vacío:
+
+let arr = new Array();
+let arr = [];
+Casi siempre se usa la segunda. Podemos suministrar elementos iniciales entre los corchetes:
+
+let fruits = ["Apple", "Orange", "Plum"];
+Los elementos del array están numerados comenzando desde cero.
+
+Podemos obtener un elemento por su número entre corchetes:
+
+let fruits = ["Apple", "Orange", "Plum"];
+
+alert( fruits[0] ); // Apple
+alert( fruits[1] ); // Orange
+alert( fruits[2] ); // Plum
+Podemos reemplazar un elemento:
+
+fruits[2] = 'Pear'; // ahora ["Apple", "Orange", "Pear"]
+…o agregar uno nuevo al array:
+
+fruits[3] = 'Lemon'; // ahora ["Apple", "Orange", "Pear", "Lemon"]
+La cuenta total de elementos en el array es su longitud length:
+
+let fruits = ["Apple", "Orange", "Plum"];
+
+alert( fruits.length ); // 3
+También podemos usar alert para mostrar el array completo.
+
+let fruits = ["Apple", "Orange", "Plum"];
+
+alert( fruits ); // Apple,Orange,Plum
+Un array puede almacenar elementos de cualquier tipo.
+
+Por ejemplo:
+
+// mezcla de valores
+let arr = [ 'Apple', { name: 'John' }, true, function() { alert('hello'); } ];
+
+// obtener el objeto del índice 1 y mostrar su nombre
+alert( arr[1].name ); // John
+
+// obtener la función del índice 3 y ejecutarla
+arr[3](); // hello
